@@ -1,1 +1,1 @@
-web: gunicorn MiniFB.wsgi
+web: gunicorn wsgi.py
