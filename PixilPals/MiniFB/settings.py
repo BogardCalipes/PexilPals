@@ -84,7 +84,9 @@ import os
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='sqlite:///db.sqlite3', conn_max_age=600, ssl_require=True
+        default='postgresql://pixilpals_user:10s519Nz51UQw0KEiQlnGhfXfPIym69V@dpg-ctcrhljtq21c73fvhlhg-a.singapore-postgres.render.com:5432/pixilpals',
+        conn_max_age=600,
+        ssl_require=True
     )
 }
 
